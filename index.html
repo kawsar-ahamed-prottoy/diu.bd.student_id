@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>(SM)Section-maintaionce</title>
+    <script src="https://kit.fontawesome.com/4f45942466.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/daffodil-international-university-logo.png">
+</head>
+<body>
+    <div class="heading">
+        <h1>'Daffodil International <span class="uni-color">University</span> fall semester 2022  Student Form'</h1>
+    </div>
+    <div class="heading2">
+       <div class="part-1">
+        <a href="#">HOME</a>
+        <a href="#">About Us</a>
+        <a href="#">Event</a>
+       </div>
+       <div class="part-1">
+        <span title="it's may changeable"> DIU "H" SECTION STUDENT INFORMATION </span><span class="changeable">(it's may changeable)</span>
+    </div>
+       <div class="part-1">
+        <a href="">Profile</a>
+        <a href="">Contact Us</a>
+       </div>
+    </div>
+    <div class="form">
+        <form action="index.php">
+            <label for="fname">Full Name:</label><br>
+            <input class="inputer" type="text" id="fname" name="fname" placeholder="write your formal name" required><br><br>
+            <label for="lname">Nick Name:</label><br>
+            <input class="inputer" type="text" id="lname" name="lname" placeholder="writer your nick name"><br><br>
+            <label for="gamil">E-mail:</label><br>
+            <input class="inputer" type="email" id="email" name="email" placeholder="input your E-mail"required><br><br>
+
+            <label for="phone">Enter a phone number:</label><br>
+            <input class="inputer" type="tel" id="phone" name="phone" placeholder="+880........." required><br><br>
+
+            <label for="pwd">Section Code:</label><br>
+            <input class="inputer" type="password" id="pwd" name="pwd" placeholder="input your password"required><br><br>
+            <label for="number">Student i'd:</label><br>
+            <input class="inputer" type="number" id="number" name="pwd" placeholder="input your Student i'd"required><br><br>
+            <input type="radio" id="male" name="identy" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="identy" value="female">
+            <label for="female">Female</label>
+            <input type="radio" id="others" name="identy" value="others">
+            <label for="others">Others</label><br><br>
+            <label for="birthday">Birthdate:</label>
+            <input type="date" id="birthday" name="birthday"><br><br>
+
+            <label for="section">Your section:</label>
+            <select id="section" name="section" form="section">
+            <option value="A">A</option>
+            <option value="b">B</option>
+            <option value="c">C</option>
+            <option value="d">D</option>
+            <option value="e">E</option>
+            <option value="f">F</option>
+            <option value="g">G</option>
+            <option value="h" selected>H</option>
+            <option value="A">A</option>
+            <option value="A">A</option>
+            <option value="A">A</option>
+            <option value="A">A</option>
+            <option value="A">A</option>
+            <option value="A">A</option>
+            <option value="A">A</option>
+            <option value="A">A</option>
+            <option value="A">A</option>
+            <option value="A">A</option>
+            <option value="A">A</option>
+            <option value="A">A</option>
+            <option value="A">A</option>
+            <option value="A">A</option>
+            <option value="A">A</option>
+            <option value="A">A</option>
+            </select><br><br>
+
+            <label for="depatment">Your department:</label>
+            <select id="depatment" name="depatment" form="depatment">
+                <option value="CSE" selected>CSE</option>
+                <option value="IC">IC</option>
+                <option value="CS">CS</option>
+                <option value="pharmacy">Pharmacy</option>
+                <option value="BBA">BBA</option>
+                <option value="LLB">LLB</option>
+                <option value="ENFLISH">ENGLISH</option>
+            </select><br><br>
+
+            <label for="avatar">Student image:</label>
+
+            <input type="file"
+                 id="avatar" name="avatar"
+                accept="image/png, image/jpeg"><br><br>
+
+               
+                <input class="button reset"type="reset" value="Remove information" onclick="yourFunction()">
+                <input class="button" type="submit" value="Push information" onclick="myFunction()">
+                
+                <script>
+                    function myFunction() {
+                      alert("Thanks for Cooperate Us");
+                    }
+                    </script>
+                <script>
+                    function yourFunction() {
+                      alert("Do You Want Remove your Data");
+                    }
+                    </script>
+            
+        </form>
+    </div>
+
+    <footer>
+        Copyright © by 'Prottoy ahammed' 2022 Daffodil International University. All Rights Reserved.
+    </footer>
+</body>
+</html>
